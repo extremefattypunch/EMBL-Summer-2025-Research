@@ -42,4 +42,5 @@ def main():
     plt.legend()
     plt.show()
     calculate_msd(trajectories)
+    testing again hi hi
 main()
