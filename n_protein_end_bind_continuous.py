@@ -7,14 +7,14 @@ def main():
     tick=0
     global_time=0
     protein_count=0
-    length_dna=200
+    length_dna=20
     tau = 500  # s^-1
     dt = 0.001  # s
     dx = 1
     k_on=3
     lower_bound_probability = 1e-5
     total_time_on_dna = -np.log(lower_bound_probability) / tau
-    num_protein = 100 
+    num_protein = 10 
     DNA=dna(length_dna,dt,dx,tau)
     trajectories = [[] for i in range(num_protein)]
     while not DNA.all_left(protein_count,num_protein):

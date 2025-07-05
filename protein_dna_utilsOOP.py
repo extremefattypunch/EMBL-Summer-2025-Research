@@ -14,7 +14,7 @@ class dna:
         dt=self.dt
         for i in range(self.length):
             if self.array[i] != "":
-                self.array[i].time_on_dna_left-=dt
+                self.array[i].time_on_dna_left-=0 #=dt to unsurpress unbinding
                 if self.array[i].time_on_dna_left<=0:
                     self.array[i]=""
                     self.dna_protein_num-=1
@@ -85,14 +85,16 @@ class dna:
             return True
         return False
 
+    def all_filled(self,protein_count,protein_num):
+        if(self.dna_protein_num==self.length):
+            return True
+        return False
 class protein:
     def __init__(self,ID_num,dir_next,time_on_dna_left):
         self.ID_num = ID_num
         self.dir_next = dir_next
         self.time_on_dna_left=time_on_dna_left
 def calculate_msd(trajectories):
-    import numpy as np
-    import matplotlib.pyplot as plt
     
     # Write MSD data to file
     with open("dataMSD.txt", "w") as f:
