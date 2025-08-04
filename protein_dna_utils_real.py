@@ -24,10 +24,10 @@ class dna:
                 self.array[i].time_on_dna+=dt 
                 t=self.array[i].time_on_dna
                 if self.pick_value_exp(t)==1:
-                    r = random.uniform(0, 1)
-                    new_dir = "left" if r > 0.5 else "right"
-                    self.array[i].dir_next=new_dir
-                    self.array[i].time_on_dna=0
+                r = random.uniform(0, 1)
+                new_dir = "left" if r > 0.5 else "right"
+                self.array[i].dir_next=new_dir
+                self.array[i].time_on_dna=0
     def add_protein_end(self,new_protein):
         if self.array[0]!="":
             return False
