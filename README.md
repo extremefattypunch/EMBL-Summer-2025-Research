@@ -2,6 +2,7 @@
 Hello Dr Quail, you will find all related interactive plots as well as my current related projects I am working on below for your easy tracking and access!
 
 # Ku Protein loading and kinetics investigation
+
 | ID | Task | Dependencies | Status | Difficulty |
 |----|------|--------------|--------|------------|
 | 1.1 | Recapitulate Kymographs in this [motor protein traffic jams paper](https://www.pnas.org/doi/epdf/10.1073/pnas.1107281109) | None | ✅ Completed | 🟢 Easy |
@@ -10,12 +11,14 @@ Hello Dr Quail, you will find all related interactive plots as well as my curren
 | 1.4 | Verify if tallies with theory and Chiu Fan results($\text{MSD}\sim t$ and $n^2$ loading | 1.2, 1.3 | ✅ Completed | 🟢 Easy |
 
 ## Interactive Plots for Ku Protein Kinetics
+
 - visit [population-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/population.html)
 - visit [msd-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/msd.html)
 - visit [patch-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/patch.html)
 - visit [mse-parameter-matching-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/mse_log.html)
 
 # hFoxA1 IDR binders and function investigation
+
 | ID | Task | Dependencies | Status | Difficulty |
 |----|------|--------------|--------|------------|
 | 2.1 | Implement RFdiffusion to find potential protein binders to hFoxA1 IDR | | 🔄 Planned | 🟡 Medium |
