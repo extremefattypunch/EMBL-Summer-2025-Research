@@ -16,8 +16,10 @@ Hello Dr Quail, you will find all related interactive plots as well as my curren
 - visit [msd-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/population.html)
 
 # hFoxA1 IDR binders and function investigation
-| 1.5 | Implement RFdiffusion to find potential protein binders to hFoxA1 IDR | | 🔄 Planned | 🟡 Medium |
-| 1.6 | Research existing experimental methods to study hFoxA1 IDR |  | 🔄 Planned | 🟡 Medium |
-| 1.7 | Finding binders to hFoxA1 C terminus IDR via computational and experimental methods |  | 🔄 Planned | 🔴 Hard |
+| ID | Task | Dependencies | Status | Difficulty |
+|----|------|--------------|--------|------------|
+| 2.1 | Implement RFdiffusion to find potential protein binders to hFoxA1 IDR | | 🔄 Planned | 🟡 Medium |
+| 2.2 | Research existing experimental methods to study hFoxA1 IDR |  | 🔄 Planned | 🟡 Medium |
+| 2.3 | Finding binders to hFoxA1 C terminus IDR via computational and experimental methods | 2.1-2.2 | 🔄 Planned | 🔴 Hard |
 
 
