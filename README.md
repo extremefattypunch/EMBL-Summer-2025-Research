@@ -12,8 +12,8 @@ Hello Dr Quail, you will find all related interactive plots as well as my curren
 ## Interactive Plots for Ku Protein Kinetics
 - visit [population-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/population.html)
 - visit [msd-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/msd.html)
-- visit [msd-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/patch.html)
-- visit [msd-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/population.html)
+- visit [patch-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/patch.html)
+- visit [mse-parameter-matching-plot](https://extremefattypunch.github.io/EMBL-Summer-2025-Research/protein%20motor%20microtubules%20kinetics/mse_log.html)
 
 # hFoxA1 IDR binders and function investigation
 | ID | Task | Dependencies | Status | Difficulty |
